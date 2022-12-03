@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+:root {
+    --font: 'Nerko One', cursive;
+    --color-bg: #7743DB;
+    --color-primary: #FFE9B1;
+}
+
+body {
+    background: var(--color-bg);
+    color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    font-family: var(--font);
+}
+
+h1 {
+    font-size: 5em;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 3em;
+    margin: 20px;
+}
+
+.mensagem {
+    font-size: 3em;
+}
+
+.box {
+    border: 2px solid var(--color-primary);
+    display: inline-block;
+    font-size: 5em;
+    margin: 10px;
+}
+#botao {
+    cursor:pointer;
+    border: 2px solid var(--color-primary);
+    text-transform: uppercase;
+    font-size: 2em;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: .2s;
+}
+
+#botao:hover {
+    background-color: var(--color-primary);
+    box-shadow: -1px 1px 2px 2px black;
+    color: var(--color-bg)
+}
